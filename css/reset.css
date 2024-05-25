@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Rubik;
+}
+
+
+.tittle-h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.tittle-h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.text-style {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 20px 0 50px 0;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light {
+  --primaryColor: black;
+  --secondColor: white;
+}
+
+.btn-style {
+  padding: 15px 70px;
+  color: var(--primaryColor);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  background-color: var(--hoverColor);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  box-shadow: 0 25px 40px hsla(0, 90%, 59%, 0.35);
+  transition: 0.3s;
+}
+
+.btn-style:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondColor);
+  border-color: var(--hoverColor);
+}
+
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width:500px) {
+  .tittle-h1 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 70px;
+  }
+
+  .tittle-h2 {
+    font-size: 32px;
+  }
+
+  .text-style {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 20px 0 50px 0;
+  }
+
+  .btn-style {
+    padding: 8px 25px;
+    font-size: 14px;
+   
+  }
+
+
+}
+
+@media (max-width:400px) {
+  .tittle-h1 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 70px;
+  }
+
+  .text-style {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 20px 0 50px 0;
+  }
+}
+
+
+/* -------- header button style ----- */
+
+#bactop {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 4px solid var(--secondColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: var(--secondColor);
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  display: none;
+  z-index: 55;
+}
+
+.show-bactop {
+  display: flex !important;
+}

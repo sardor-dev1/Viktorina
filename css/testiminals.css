@@ -1,0 +1,40 @@
+.testimanls-span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.testimonials-tittle {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials-text {
+    width: 100%;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testiminal-maps-wrapp {
+    text-align: center;
+    padding: 100px 0 50px;
+
+}
+
+.testiminal-maps {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.testiminal__company {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+

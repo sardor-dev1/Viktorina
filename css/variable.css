@@ -1,0 +1,7 @@
+:root {
+    --primaryColor: white;
+    --secondColor: black;
+    --mainColor:hsla(351, 90%, 59%, 1);
+    --hoverColor: hsla(0, 90%, 59%, 1);
+    --shadowColor:hsla(0, 90%, 59%, 1);
+}
